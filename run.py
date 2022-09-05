@@ -2,7 +2,7 @@ from random import randint
 
 board = []
 
-# The boar
+# The board
 for x in range(5):
     board.append(["O"]*5)
 
@@ -12,7 +12,7 @@ def print_board(board):
 
 
 # Initial board print
-print ("Let's play Battleship!  There are 2 ships on the field.  Can you find one?")
+print ("Let's play Battleship!  There are 2 ships on the field. Can you find one?")
 print_board(board)                          
 
 # Calculate random row
@@ -20,7 +20,7 @@ def random_row(board):
     return randint(0, len(board) -1)
 
 def random_col(board):
-     return randint(0, len(board) -1)
+    return randint(0, len(board) -1)
 
 # Place and print ship 1 and 2.
 ship_row = random_row(board)
@@ -38,13 +38,13 @@ for turn in range(4):
      
 #Win statement
     if (guess_row == ship_row and guess_col == ship_col) or (guess_row == ship_row2 and guess_col == ship_col2):
-        print("Congratulation! You Won")
+        print("Congratulation! YouYou sunk my battleship!")
         break
  
 #Out of boundaries and repeat guess function
     else:
         if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
-            print("You missed it! Try again!")
+            print("That's not even in the water. Try again!")
         elif (board[guess_row][guess_col] == "X"):
             print("You guessed that one already.")
 #Turncount/ Gameover function
