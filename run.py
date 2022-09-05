@@ -43,15 +43,15 @@ for turn in range(6):
  
  #Out of boundaries and repeat guess function
     else:
-    if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4) :
-        print("You missed it! Try again!")
-    elif (board[guess_row][guess_col] == "X"):
-        print("You guessed that one already.")
+        if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
+            print("You missed it! Try again!")
+        elif (board[guess_row][guess_col] == "X"):
+            print("You guessed that one already.")
    #Turncount/ Gameover function
-    else:
-        print("You missed Ship!")
-        board[guess_row][guess_col] = "X"
-        if turn == 5: 
-            print("Game Over")   
+        else:
+            print("You missed Ship!")
+            board[guess_row][guess_col] = "X"
+            if turn == 5: 
+                print("Game Over")   
   #Print board with X's
     print_board(board)
