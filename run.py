@@ -31,7 +31,7 @@ shiplist1 = [ship_row, ship_col]
 shiplist2 = [ship_row2, ship_col2]
 
 #Take input for row and column
-for turn in range(4):
+for turn in range(10):
     print("Turn", turn +1)
     guess_row = int(input("Guess Row 1-5:"))-1
     guess_col = int(input("Guess Col 1-5:"))-1
@@ -54,4 +54,4 @@ for turn in range(4):
             if turn == 10: 
                 print("Game Over")   
 #Print board with X's
-         print_board(board)
+    print_board(board)
