@@ -47,11 +47,11 @@ for turn in range(4):
             print("That's not even in the water. Try again!")
         elif (board[guess_row][guess_col] == "X"):
             print("You guessed that one already.")
-#Turncount/ Gameover function
+#Turncount/ Gameover 
         else:
             print("You missed Ship!")
             board[guess_row][guess_col] = "X"
-            if turn == 7: 
+            if turn == 10: 
                 print("Game Over")   
 #Print board with X's
     print_board(board)
