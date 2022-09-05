@@ -41,7 +41,7 @@ for turn in range(4):
         print("Congratulation! YouYou sunk my battleship!")
         break
  
-#Out of boundaries and repeat guess function
+#Out of boundaries and repeat guess 
     else:
         if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
             print("That's not even in the water. Try again!")
@@ -51,7 +51,7 @@ for turn in range(4):
         else:
             print("You missed Ship!")
             board[guess_row][guess_col] = "X"
-            if turn == 5: 
+            if turn == 7: 
                 print("Game Over")   
 #Print board with X's
     print_board(board)
