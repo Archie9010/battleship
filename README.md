@@ -1,6 +1,6 @@
 # Big Quiz
 
-Welcome to [Battleship game](https://archie9010.github.io/Quiz/) A simple battleship game in Python.
+Welcome to [Battleship game](https://battleship-game15.herokuapp.com/) A simple battleship game in Python. Battleship is the classic naval combat game. In the battle, you search for the enemy's ships and destroy them. No ship is safe in this game of stealth and suspense.
 
 
 
@@ -21,10 +21,9 @@ Welcome to [Battleship game](https://archie9010.github.io/Quiz/) A simple battle
 
 ## Features
 
-
+* 
 
 ## Testing
-
 
 * PEP 8
   * For checking python convention.
@@ -45,6 +44,8 @@ Welcome to [Battleship game](https://archie9010.github.io/Quiz/) A simple battle
 
 
 ### Bugs
+
+* No Bugs found.
 
 
 ## Deployment
@@ -68,7 +69,7 @@ Welcome to [Battleship game](https://archie9010.github.io/Quiz/) A simple battle
 
 ## Credits
 
-* The inspiration for this project came from W3School, oyutubr videos.
+* The inspiration for this project came from W3School and Youtube videos.
 
 
 ### Code
