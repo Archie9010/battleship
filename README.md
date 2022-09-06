@@ -2,7 +2,7 @@
 
 Welcome to [Battleship game](https://battleship-game15.herokuapp.com/) A simple battleship game in Python. Battleship is the classic naval combat game. In the battle, you search for the enemy's ships and destroy them. No ship is safe in this game of stealth and suspense.
 
-
+![mockup](images_readme/mockup.png)
 
 ## Index 
 * [Technologies Used](#technologies-used)
@@ -21,9 +21,9 @@ Welcome to [Battleship game](https://battleship-game15.herokuapp.com/) A simple 
 
 ## Features
 
-* Board contains 5 columns and 5 rows
-* Game has 10 turns limitation
-* After "Hitting" ship congratulation message is displayed
+* Board contains 5 columns and 5 rows.
+* Game has 10 turns limitation.
+* After "Hitting" ship congratulation message is displayed.
 * After 10th turn game over message is displayed. 
 * If user input numbers out of range "That's not even in the water. Try again!" message is displayed. 
 
@@ -50,6 +50,8 @@ Welcome to [Battleship game](https://battleship-game15.herokuapp.com/) A simple 
 ### Bugs
 
 * No Bugs found.
+
+![pep8](images_readme/pep8.png)
 
 
 ## Deployment
