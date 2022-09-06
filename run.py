@@ -31,7 +31,7 @@ shiplist1 = [ship_row, ship_col]
 shiplist2 = [ship_row2, ship_col2]
 
 #Take input for row and column
-for turn in range(1,11):
+for turn in range(1,10):
     print("Turn", turn +1)
     guess_row = int(input("Guess Row 1-5:"))-1
     guess_col = int(input("Guess Col 1-5:"))-1
