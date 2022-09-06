@@ -1,6 +1,6 @@
 # Big Quiz
 
-Welcome to [Big Quiz](https://archie9010.github.io/Quiz/) Big Quiz is a free web application for all your knowledge needs. The topics currently available are: Geography, Science, Anatomy and Astronomy. With Big Quiz, you can easily and efficiently refresh or expand on what you already know. The website was designed with the goal of being simple and easy to use with little complexity.
+Welcome to [Battleship game](https://archie9010.github.io/Quiz/) Battleship game . 
 
 ![mockup](assets/media/mockup.png)
 
@@ -82,7 +82,6 @@ The wireframe model is created as part of the project planning. Its task is to g
 
 ## Deployment
 
-
 * Push the latest code to GitHub.
 * Go to Heroku.
 * Select new in the top right corner.
@@ -99,16 +98,10 @@ The wireframe model is created as part of the project planning. Its task is to g
 * Navigate to the deploy tab. 
 * Scroll down to Manual Deploy and select deploy branch.
 
-## Features left to implement
-
-  
-* 
-   - Database for scores that people could copeete 
-   - Weekly challanges 
 
 ## Credits
 
-* The inspiration for this project came from YouTube videos and the love math project.
+* The inspiration for this project came from W3School, oyutubr videos.
 
 ### Content
 
