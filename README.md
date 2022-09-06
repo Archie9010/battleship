@@ -82,20 +82,22 @@ The wireframe model is created as part of the project planning. Its task is to g
 
 ## Deployment
 
-### How to clone the repository
 
-* Go to the https://github.com/Archie9010/Quiz repository on GitHub
-* Click the "Code" button to the right of the screen, click HTTPs and copy the link there
-* Open a GitBash terminal and navigate to the directory where you want to locate the clone
-* On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
-
-The site was deployed to GitHub pages. The steps to deploy are followed:
-* Logged into GitHub
-* In the GitHub repository, navigate to the Settings tab.
-* From the drop-down menu, select the Main Branch
-* Once the Main branch has been selected, the page provided the link to the completed website.
-
-Live link: [Big Quiz](https://archie9010.github.io/Quiz/)
+* Push the latest code to GitHub.
+* Go to Heroku.
+* Select new in the top right corner.
+* Create new app.
+* Enter the app name and select Europe as the region.
+* Connect to GitHub.
+* Search for repo-name. 
+* Select connect to the relevant repo you want to deploy.
+* Select the settings tab. 
+* Add buildpacks.
+* Select Python, then save changes.
+* Select Nodejs, then save changes.
+* Make sure Heroku/Python is at the top of the list, followed by Heroku/Nodejs.
+* Navigate to the deploy tab. 
+* Scroll down to Manual Deploy and select deploy branch.
 
 ## Features left to implement
 
