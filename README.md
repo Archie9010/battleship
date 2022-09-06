@@ -77,5 +77,5 @@ Welcome to [Battleship game](https://battleship-game15.herokuapp.com/) A simple 
 
 * The inspiration for this project came from Code Institute Assesment guide and Youtube videos.
 * Heroku deployment instructions from Code Institute
-
+* Python essential template provided by Code institiute.
 
