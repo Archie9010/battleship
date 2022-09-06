@@ -22,7 +22,7 @@ def random_row(board):
 def random_col(board):
     return randint(0, len(board) -1)
 
-# Place and print ship 1 and 2.
+# Place and print ship 1 .
 ship_row = random_row(board)
 ship_col = random_col(board)
 ship_row2 = random_row(board)
@@ -51,7 +51,7 @@ for turn in range(10):
         else:
             print("You missed Ship!")
             board[guess_row][guess_col] = "X"
-            if turn == 10: 
-                print("Game Over")   
+        if turn == 10: 
+            print("Game Over")   
 #Print board with X's
     print_board(board)
