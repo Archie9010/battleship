@@ -31,14 +31,14 @@ shiplist1 = [ship_row, ship_col]
 shiplist2 = [ship_row2, ship_col2]
 
 #Take input for row and column
-for turn in range(10):
+for turn in range(1,11):
     print("Turn", turn +1)
     guess_row = int(input("Guess Row 1-5:"))-1
     guess_col = int(input("Guess Col 1-5:"))-1
      
 #Win statement
     if (guess_row == ship_row and guess_col == ship_col) or (guess_row == ship_row2 and guess_col == ship_col2):
-        print("Congratulation! YouYou sunk my battleship!")
+        print("Congratulation! You sunk my battleship!")
         break
  
 #Out of boundaries and repeat guess 
@@ -47,7 +47,7 @@ for turn in range(10):
             print("That's not even in the water. Try again!")
         elif (board[guess_row][guess_col] == "X"):
             print("You guessed that one already.")
-#Turncount/ Gameover statemnet
+#Turncount/ Game over statemnet
         else:
             print("You missed Ship!")
             board[guess_row][guess_col] = "X"
