@@ -40,7 +40,7 @@ for turn in range(1, 10):
     guess_row = int(input("Guess Row 1-5:"))-1
     guess_col = int(input("Guess Col 1-5:"))-1
 # Win statement
-    if (guess_row == ship_row and guess_col == ship_col) or (guess_row  ==  ship_row2 and guess_col == ship_col2):
+    if (guess_row == ship_row and guess_col == ship_col) or (guess_row == ship_row2 and guess_col == ship_col2):
         print("Congratulation! You sunk my battleship!")
         break
 # Out of boundaries and repeat guess
