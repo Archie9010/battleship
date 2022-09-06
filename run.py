@@ -13,7 +13,7 @@ def print_board(board):
 
 
 # Initial board print
-print("Let's play Battleship!There is a ship on the field. Can you find it?")
+print("Let's play Battleship! There is a ship on the field. Can you find it?")
 print_board(board)
 
 

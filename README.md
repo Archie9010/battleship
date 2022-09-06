@@ -21,7 +21,11 @@ Welcome to [Battleship game](https://battleship-game15.herokuapp.com/) A simple 
 
 ## Features
 
-* 
+* Board contains 5 columns and 5 rows
+* Game has 10 turns limitation
+* After "Hitting" ship congratulation message is displayed
+* After 10th turn game over message is displayed. 
+* If user input numbers out of range "That's not even in the water. Try again!" message is displayed. 
 
 ## Testing
 
@@ -69,8 +73,7 @@ Welcome to [Battleship game](https://battleship-game15.herokuapp.com/) A simple 
 
 ## Credits
 
-* The inspiration for this project came from W3School and Youtube videos.
+* The inspiration for this project came from Code Institute Assesment guide and Youtube videos.
+* Heroku deployment instructions from Code Institute
 
-
-### Code
 
